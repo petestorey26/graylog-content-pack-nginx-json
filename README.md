@@ -22,7 +22,6 @@ You need to run at least nginx version 1.11.8, escaped JSON support.
 
         log_format graylog2_json escape=json '{ "timestamp": "$time_iso8601", '
                          '"remote_addr": "$remote_addr", '
-                         '"remote_user": "$remote_user", '
                          '"body_bytes_sent": $body_bytes_sent, '
                          '"request_time": $request_time, '
                          '"status": $status, '
