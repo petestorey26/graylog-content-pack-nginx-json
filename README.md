@@ -24,7 +24,7 @@ You need to run at least nginx version 1.11.8, escaped JSON support.
                          '"remote_addr": "$remote_addr", '
                          '"body_bytes_sent": $body_bytes_sent, '
                          '"request_time": $request_time, '
-                         '"status": $status, '
+                         '"response_status": $status, '
                          '"request": "$request", '
                          '"request_method": "$request_method", '
                          '"host": "$host",'
